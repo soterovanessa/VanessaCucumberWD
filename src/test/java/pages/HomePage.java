@@ -104,7 +104,7 @@ public class HomePage {
 		String textMessageAlert = messageAlert.getText();
 		assertEquals("Sending e-mail success!", textMessageAlert);
 
-		String screenshotArquivo = "../../../prints" + Generator.dataHoraParaArquivo() + ".jpg";
+		String screenshotArquivo = "C:\\Users\\Vagner\\IdeaProjects\\VanessaCucumberWD\\prints\\" + Generator.dataHoraParaArquivo() + ".jpg";
 		Screenshot.take(driver, screenshotArquivo);
 	}
 }
